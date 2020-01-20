@@ -34,7 +34,7 @@ th:replace="fragments/headerload :: load">
  </table>
  
  <h2 th:if="${action == 'ModifierClasse'}">
- <a	th:href="@{/afficherCreerClasse}" th:text="'Formulaire de Mofication'"></a>
+ <a	th:href="@{/creerFormClient}" th:text="'Formulaire de Mofication'"></a>
  </h2>
  <h2 th:unless="${action == 'ModifierClasse'}">Formulaire d'Ajout</h2>
  

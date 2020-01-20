@@ -62,8 +62,7 @@ public class ClasseController {
 			ClasseForm classeform = new ClasseForm();
 			classeform.setId(pclasse.getId());
 			classeform.setProf(String.valueOf(pclasse.getProf().getId()));
-			classeform.setNom(pclasse.getNom());
-			
+			classeform.setNom(pclasse.getNom());		
 			pmodel.addAttribute("classeform", classeform);
 		}
 		return "classes";
